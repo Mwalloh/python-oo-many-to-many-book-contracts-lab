@@ -63,7 +63,7 @@ class Contract:
         if not isinstance(value, Book):
             raise Exception("Book must be an instance of the Book class.")
         
-        self._author = value
+        self._book = value
         
     # Date
     @property
